@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}
+
+/*Seccion de la pagina de inicio de la página*/
+.contenedor-1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fondo1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor-1_paquete{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.paqueteA{
+    background-color: #dedddd ;
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border-radius: 45px;
+    padding: 100px 50px 100px;
+}
+
+.paqueteA h3{
+    font-size: 48px;
+    font-weight: 100;
+    color: brown;
+}
+
+.paqueteA img{
+    object-fit: cover;
+    width: 50%;
+}
+
+.paqueteA h4{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.paqueteA p{
+    font-size: 16px;
+}
+
+/*Seccion de la pagina del total de la compra*/
+.contenedor-2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fondo1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor-2_paquete{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.paqueteB{
+    background-color: #dedddd ;
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border-radius: 45px;
+    padding: 100px 50px 100px;
+}
+
+.paqueteB h3{
+    font-size: 48px;
+    font-weight: 100;
+    color: brown;
+}
+
+.paqueteB img{
+    object-fit: cover;
+    width: 50%;
+}
+
+.paqueteB h4{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.paqueteB p{
+    font-size: 16px;
+}
+
+.banner img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
